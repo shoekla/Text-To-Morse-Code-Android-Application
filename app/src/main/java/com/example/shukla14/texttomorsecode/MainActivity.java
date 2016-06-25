@@ -90,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
     private void showNoCameraAlert(){
         new AlertDialog.Builder(this)
                 .setTitle("Error: No Camera Flash!")
@@ -151,7 +152,8 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            Intent se = new Intent(MainActivity.this,flashSett.class);
+            startActivity(se);
         }
 
         return super.onOptionsItemSelected(item);
