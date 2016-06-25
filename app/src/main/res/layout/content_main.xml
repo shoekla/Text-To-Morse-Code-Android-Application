@@ -38,6 +38,16 @@
         android:layout_below="@+id/editText"
         android:layout_centerHorizontal="true"
         android:onClick="translate"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voice"
+        android:id="@+id/voice"
+        android:layout_marginTop="55dp"
+        android:layout_below="@+id/translateButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="prom"/>
 <!--
     <Button
         android:layout_width="wrap_content"

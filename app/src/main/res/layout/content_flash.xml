@@ -38,8 +38,7 @@
         android:text="Back To Translate!"
         android:id="@+id/button"
         android:layout_below="@+id/transText"
-        android:layout_alignRight="@+id/titleTrans"
-        android:layout_alignEnd="@+id/titleTrans"
         android:layout_marginTop="83dp"
+        android:layout_centerHorizontal="true"
         android:onClick="backT"/>
 </RelativeLayout>
